@@ -1,0 +1,52 @@
+@import "variables.scss";
+
+body{
+  background-color: $lightgray;
+  color: $darkgray;
+}
+
+.sitenav{
+  position: fixed;
+  top: 0px;
+  padding: 10px;
+  padding-top: 20px;
+  height: 100%;
+  width: 74px;
+  background-color: $darkgraytrans;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .navitem{
+    margin: 10px;
+    border: 2px solid $pink;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+  }
+  .navitem:hover{
+    width: 150px;
+    transition: width .5s;
+    // transition-timing-function: ease-in-out;
+    transform: scaleX();
+  }
+  .navitem:active{
+    border-color: $lime;
+  }
+}
+
+.socialnav{
+  padding: 35%;
+  padding-bottom: 60%;
+  .fa{
+    font-size: 1.4em;
+    padding-top: 10px;
+    color: $burgandy;
+  }
+  .fa:hover{
+    color: $lime;
+  }
+}
+
+section{
+  margin: 10% 23%;
+}

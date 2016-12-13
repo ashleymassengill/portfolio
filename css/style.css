@@ -1,0 +1,42 @@
+body {
+  background-color: #F5F5F5;
+  color: #565656; }
+
+.sitenav {
+  position: fixed;
+  top: 0px;
+  padding: 10px;
+  padding-top: 20px;
+  height: 100%;
+  width: 74px;
+  background-color: rgba(86, 86, 86, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .sitenav .navitem {
+    margin: 10px;
+    border: 2px solid #94376D;
+    background-color: white;
+    height: 50px;
+    width: 50px; }
+  .sitenav .navitem:hover {
+    width: 150px;
+    transition: width .5s;
+    transform: scaleX(); }
+  .sitenav .navitem:active {
+    border-color: #9DD118; }
+
+.socialnav {
+  padding: 35%;
+  padding-bottom: 60%; }
+  .socialnav .fa {
+    font-size: 1.4em;
+    padding-top: 10px;
+    color: #2E1122; }
+  .socialnav .fa:hover {
+    color: #9DD118; }
+
+section {
+  margin: 10% 23%; }
+
+/*# sourceMappingURL=style.css.map */
