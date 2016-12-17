@@ -1,15 +1,12 @@
-body {
-  background-color: #F5F5F5;
-  color: #565656; }
-
 .sitenav {
   position: fixed;
   top: 0px;
+  left: 0px;
   padding: 10px;
   padding-top: 20px;
   height: 100%;
   width: 74px;
-  background-color: rgba(86, 86, 86, 0.8);
+  background-color: rgba(86, 86, 86, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
@@ -19,24 +16,35 @@ body {
     background-color: white;
     height: 50px;
     width: 50px; }
+    .sitenav .navitem a {
+      text-decoration: none;
+      font-size: 24px;
+      color: #2E1122; }
+      .sitenav .navitem a p {
+        padding-left: 9px;
+        padding-top: 3px; }
   .sitenav .navitem:hover {
-    width: 150px;
-    transition: width .5s;
-    transform: scaleX(); }
+    width: 125px;
+    transition: width .5s; }
   .sitenav .navitem:active {
     border-color: #9DD118; }
 
 .socialnav {
-  padding: 35%;
-  padding-bottom: 60%; }
+  box-sizing: border-box;
+  margin: 35%;
+  margin-bottom: 60%; }
   .socialnav .fa {
+    margin-top: 35%;
     font-size: 1.4em;
-    padding-top: 10px;
     color: #2E1122; }
   .socialnav .fa:hover {
     color: #9DD118; }
 
+body {
+  background-color: #F5F5F5;
+  color: #565656; }
+
 section {
-  margin: 10% 23%; }
+  margin: 5% 14%; }
 
 /*# sourceMappingURL=style.css.map */
