@@ -22,7 +22,8 @@
       color: #2E1122; }
       .sitenav .navitem a p {
         padding-left: 9px;
-        padding-top: 3px; }
+        padding-top: 3px;
+        display: none; }
   .sitenav .navitem:hover {
     width: 125px;
     transition: width .5s; }
