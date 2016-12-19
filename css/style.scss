@@ -11,10 +11,10 @@ body{
   color: $darkgray;
 }
 
-
-
-section{
+.pagebody{
   margin: 5% 14%;
+  padding: 10px 15px;
+  background-color: white;
 }
 
 @import "media.scss";

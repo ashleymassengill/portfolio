@@ -13,30 +13,36 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  .navitem{
-    margin: 10px;
-    border: 2px solid $pink;
-    background-color: white;
-    height: 50px;
-    width: 50px;
-    a{
-      text-decoration: none;
-      font-size: 24px;
-      color: $burgandy;
-      p{
-        padding-left: 9px;
-        padding-top: 3px;
-        display: none;
-      }
+}
+
+.navitem{
+  margin: 10px;
+  border: 2px solid $pink;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  a{
+    text-decoration: none;
+    font-size: 24px;
+    color: $burgandy;
+    p{
+      display: none;
+      padding-left: 9px;
+      padding-top: 3px;
     }
   }
-  .navitem:hover{
-    width: 125px;
-    transition: width .5s;
+}
+
+.navitem:hover{
+  width: 125px;
+  transition: width .5s;
+  p{
+    display: block;
   }
-  .navitem:active{
-    border-color: $lime;
-  }
+}
+
+.navitem:active{
+  border-color: $lime;
 }
 
 .socialnav{
